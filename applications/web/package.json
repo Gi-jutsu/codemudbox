@@ -1,0 +1,19 @@
+{
+  "name": "@codemudbox/web",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vite build",
+    "start:development": "vite",
+    "start:production": "vite preview"
+  },
+  "dependencies": {
+    "@codemudbox/design-system": "workspace:^1.0.0",
+    "solid-js": "^1.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.13",
+    "vite-plugin-solid": "^2.2.6"
+  }
+}

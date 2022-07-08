@@ -1,0 +1,22 @@
+{
+  "name": "@codemudbox/design-system",
+  "version": "1.0.0",
+  "main": ".dist/index.js",
+  "types": ".dist/index.d.ts",
+  "scripts": {
+    "build": "yarn build:js",
+    "build:watch": "yarn build -w",
+    "build:js": "swc src/ -d .dist/"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.210",
+    "chokidar": "^3.5.3",
+    "solid-js": "^1.4.7",
+    "solid-styled-components": "^0.28.4",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.4.7"
+  }
+}

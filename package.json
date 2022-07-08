@@ -1,0 +1,15 @@
+{
+  "name": "codemudbox",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "applications/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start:development": "turbo run start:development build:watch"
+  },
+  "devDependencies": {
+    "turbo": "^1.3.1"
+  }
+}
