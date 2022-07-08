@@ -1,12 +1,12 @@
 import type { Component } from 'solid-js';
-import { Box } from '@codemudbox/design-system';
 import { CodeEditor } from './core/components';
+import { DefaultLayout } from './core/layouts';
 
 const Application: Component = () => {
   return (
-    <Box>
+    <DefaultLayout>
       <CodeEditor />
-    </Box>
+    </DefaultLayout>
   );
 };
 
